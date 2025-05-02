@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Matemasie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sixtyfour+Convergence&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  min-height: 100vh;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  background-color: #e9e8e5;
+}
+body .navbar {
+  background-color: #8e7b6d;
+}
+body .navbar .navbar-brand {
+  font-family: "Matemasie", sans-serif;
+  color: #edede9;
+}
+body .heading {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-right: 8rem;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+body .menu {
+  background-color: #edede9;
+}
+body .menu a {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+}
+
+.cats {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+button a {
+  color: inherit;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  height: 23rem;
+  width: 18rem;
+  padding: 1rem;
+  border-radius: 25px;
+  background-color: #8e7b6d;
+  box-shadow: 6px 7px 7px rgba(0, 0, 0, 0.351);
+  color: white;
+  outline: 1px solid white;
+}
+.card .name {
+  font-size: 1.3rem;
+}
+.card .image {
+  outline: inherit;
+  background-color: rgb(142, 142, 142);
+  width: 100%;
+  height: 50%;
+  border-radius: 23px;
+}
+.card .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: inherit;
+}
+.card .contents {
+  color: rgb(244, 244, 244);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 50%;
+}
+.card .contents .origin {
+  font-size: 1rem;
+}
+.card .contents .para {
+  text-align: center;
+  font-size: 1rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  font-family: "Anton SC", sans-serif;
+}
+footer .active .page-link {
+  background-color: #d9d2c4;
+  border: #8e7b6d;
+}
+footer .page-link {
+  background-color: #8e7b6d;
+}
+
+.detail {
+  color: #ededed;
+  margin-top: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 2rem;
+  text-shadow: 3px 4px 4px rgba(143, 124, 110, 0.8705882353);
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.detail p {
+  width: 80%;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.detail .img {
+  border-radius: 23px;
+}
+.detail img {
+  min-width: 25vw;
+  height: 30vh;
+  background-color: #8e7b6d;
+  box-shadow: 6px 7px 7px rgba(0, 0, 0, 0.351);
+  outline: 1px solid white;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: inherit;
+}
+.detail .button {
+  margin-top: 1rem;
+}
+.detail .button a {
+  border-radius: 25px;
+  background-color: #d9d2c4;
+  color: rgba(71, 56, 46, 0.873);
+  padding: 1rem;
+  text-shadow: none;
+}
+.detail .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5rem;
+}
+.detail .desc {
+  width: 70%;
+  color: rgba(71, 56, 46, 0.962);
+  background-color: #d9d2c4;
+  border-radius: 25px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detail .heading-desc {
+  font-size: 1.5rem;
+}
+.detail .wiki a {
+  color: rgba(55, 40, 29, 0.937254902);
+  text-shadow: 3px 4px 4px rgba(175, 151, 134, 0.8705882353);
+}/*# sourceMappingURL=styles.css.map */

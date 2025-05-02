@@ -1,0 +1,16 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual environment
+.env/
+venv/
+ENV/
+
+# Ignore system files
+.DS_Store
+
+# Ignore compiled CSS maps (optional)
+*.css.map
+*.scss.map

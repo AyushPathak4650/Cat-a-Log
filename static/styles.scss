@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    min-height: 100vh;
+    max-height: fit-content;
+    background-color: #e9e8e5;
+    .navbar{
+        background-color: #8e7b6d;
+        .navbar-brand{
+            font-family: "Matemasie", sans-serif;
+            color: #edede9;
+            
+        }
+    }
+    .heading{
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
+        margin-right: 8rem;
+        font-style: normal;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .menu{
+        background-color: #edede9;
+        a{
+            font-family: "Poppins",serif;
+            font-weight: 400;
+        }
+    }
+}
+
+.cats{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    
+}
+a{
+    text-decoration: none;
+}
+button a{
+    color: inherit;
+}
+.card{
+    display: flex;
+    align-items: center;
+    height: 23rem;
+    width: 18rem;
+    padding: 1rem;
+    border-radius: 25px;
+    background-color: #8e7b6d;
+    box-shadow: 6px 7px 7px rgba(0, 0, 0, 0.351);
+    color: white;
+    outline: 1px solid white;
+    
+    .name{
+        font-size: 1.3rem;
+    }
+    .image{
+
+        outline: inherit;
+        background-color: rgb(142, 142, 142);
+        width: 100%;
+        height: 50%;
+        border-radius: 23px;
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: inherit;
+        }
+        
+    }
+    .contents{
+        color: rgb(244, 244, 244);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 50%;
+        
+        .origin{
+            font-size: 1rem;
+        }
+        .para{
+            text-align: center;
+            font-size: 1rem;
+        }
+    }
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    font-family: "Anton SC", sans-serif;
+    .active .page-link{
+        background-color: #d9d2c4;
+        border: #8e7b6d;
+    }
+    .page-link{
+        background-color: #8e7b6d;
+        
+    }
+}
+
+// Detail Page
+.detail{
+    color: #ededed;
+    margin-top: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 2rem;
+    text-shadow: 3px 4px 4px #8f7c6ede;
+    p{
+        width: 80%;
+        text-align: center;
+        font-size: 1.4rem;
+        
+    }
+    .img{
+        border-radius: 23px;
+    }
+    img{
+        
+        width: 25vw;
+        height: 30vh;
+        background-color: #8e7b6d;
+        box-shadow: 6px 7px 7px rgba(0, 0, 0, 0.351);
+        outline: 1px solid white;
+        object-fit: cover;
+        object-position: center;
+        border-radius: inherit;
+    }
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .button{
+        margin-top: 1rem;
+        a{
+        
+            border-radius: 25px;
+            background-color: #d9d2c4;
+            color: rgba(71, 56, 46, 0.873);
+            padding: 1rem;
+            text-shadow: none;
+        }
+    }
+    .info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3.5rem;
+    }
+    .desc{
+        width: 70%;
+        color: rgba(71, 56, 46, 0.962);
+        background-color: #d9d2c4;
+        border-radius: 25px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading-desc{
+        font-size: 1.5rem;
+
+    }
+    .wiki a{
+        color: #37281def;
+        text-shadow: 3px 4px 4px #af9786de;
+    }
+    
+}

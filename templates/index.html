@@ -1,0 +1,33 @@
+{% extends 'base.html'%}
+# Head
+{% block head %} {% endblock %}
+# Body
+{% block body %}
+
+<div class="cats">
+
+    {% if not cats %}
+    <p><h2>No Cats Found</h2></p>
+    {% else %}
+    {% for cat in cats %}
+    <a href="/id={{ cat.id }}">
+        <div class="card">
+            <p class="name">{{ cat.name }}</p>
+            <div class="image">
+                <img src="{{ cat.image }}" alt="{{ cat.name }} Cat">
+            </div>
+            <div class="contents">
+                <p class="origin">Origin: {{ cat.origin }}</p>
+                <p class="para">{{ cat.temperament }}</p>
+            </div>
+        </div>
+    </a>
+    {% endfor %}
+    {% endif %}
+
+
+</div>
+
+
+
+{% endblock %}
